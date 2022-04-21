@@ -1,0 +1,15 @@
+.listItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+.listInfoContainer {
+  display: flex;
+  align-items: center;
+}
+.listInfoContainer--children {
+  margin-left: 1rem;
+}

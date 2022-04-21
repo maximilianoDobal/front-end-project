@@ -1,0 +1,15 @@
+.FavoriteArtistCardContainer {
+  background-color: hsl(216, 24%, 96%);
+  border: 1px solid black;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.favoriteArtistImage {
+  margin: 1rem;
+  border-radius: 50%;
+}
