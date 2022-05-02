@@ -1,4 +1,5 @@
 import React from "react";
+import NewUser from "../NewUserContainer/NewUserContainer";
 import "./Login.css";
 
 const Login = () => {
@@ -19,6 +20,7 @@ const Login = () => {
         </div>
         <input type="submit" value="ENVIAR" onClick={(e) => formSubmit(e)} />
       </form>
+      <NewUser />
     </div>
   );
 };
